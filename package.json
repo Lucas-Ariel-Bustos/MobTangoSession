@@ -1,0 +1,18 @@
+{
+  "name": "proyecto-mob-tango-session",
+  "version": "1.0.0",
+  "description": "Proyecto Grupo de Tango",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.sass ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-Ariel-Bustos/MobTangoSession"
+  },
+  "author": "Lucas Bustos",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

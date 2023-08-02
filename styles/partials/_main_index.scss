@@ -1,0 +1,33 @@
+/* Estilos para la página index.html */
+.parallax {
+    background-image: url('/assets/mob\ hd\ \(2\).jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax-content {
+    text-align: center;
+    color: #fff;
+}
+
+.parallax h1 {
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive, Arial, sans-serif;
+    color: rgb(163, 111, 42);
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.parallax p {
+    font-size: 24px; /* Aumentar el tamaño de la letra */
+    color: rgb(163, 111, 42);
+}
+
+.parrafoIndex {
+    font-size: 40px;
+    color: rgb(163, 111, 42);
+}

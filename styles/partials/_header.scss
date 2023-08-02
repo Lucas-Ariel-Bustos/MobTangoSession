@@ -1,0 +1,55 @@
+/* Estilos de encabezado y navegación */
+header {
+    background-color: #880000;
+    background-image: linear-gradient(to right, #880000, #000);
+    color: rgb(163, 111, 42);
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 1rem;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    box-sizing: border-box; /* Añadimos esta propiedad */
+    border: 3px solid transparent; /* Añadimos un borde transparente inicial */
+}
+
+.logo img:hover {
+    border-color: rgb(163, 111, 42); /* Cambiamos el color del borde al pasar el mouse */
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: rgb(163, 111, 42);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/* Cambiamos el color del listado del navegador al pasar el cursor sobre las palabras */
+nav a:hover {
+    color: white;
+    
+}
+
+nav {
+    margin-left: auto;
+}
